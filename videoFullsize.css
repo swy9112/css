@@ -1,0 +1,18 @@
+/* 16:9 비디오 비율 유지 */
+
+.video_Wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+.video_Wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
